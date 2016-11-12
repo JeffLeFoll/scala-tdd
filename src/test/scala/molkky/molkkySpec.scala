@@ -2,7 +2,7 @@ package molkky
 
 import org.scalatest._
 
-class molkkySpec extends FunSpec with Matchers with BeforeAndAfter {
+class MolkkySpec extends FunSpec with Matchers with BeforeAndAfter {
 
   var jeuDeMolkky: Molkky = _
 
