@@ -1,4 +1,4 @@
-package jeff
+package fizzbuzz
 
 import org.scalatest._
 
@@ -33,7 +33,12 @@ class FizzBuzzSpec extends FunSpec with Matchers with BeforeAndAfter {
         it ("should replace multiple of 3 and 5 by FizzBuzz") {
             resultat(15) should equal ("FizzBuzz")
             resultat(45) should equal ("FizzBuzz")
-        }          
+        }
+
+      it ("should not replace value that are not multiple of 3, 5, 3 & 5") {
+        resultat(2) should equal ("2")
+        resultat(8) should equal ("8")
+      }
 
     }
 

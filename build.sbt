@@ -1,4 +1,4 @@
-name := "FizzBuzz"
+name := "scala-tdd"
 
 version := "1.0"
 
